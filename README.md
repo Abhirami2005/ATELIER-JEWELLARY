@@ -15,6 +15,22 @@ Administrators can manage products, inventory, pricing, categories, featured col
 The application is built with a responsive and scalable architecture suitable for future integration with real payment gateways and cloud databases.
 
 ---
+#############
+
+  I have added an admin login system in the application.
+Only the owner/admin can access the admin page using the credentials.
+
+user name : ATELIER
+
+PASSWORD:ATELIER2005
+
+After entering the correct username and password, the user will be directly redirected to the admin dashboard page.
+
+Normal users will not be able to access the admin page without authentication.
+      
+ In the admin panel, the owner can upload product images and add product information.        
+ 
+ These products will then be displayed on the user side of the application.
 
 # ✨ Features
 
@@ -189,18 +205,7 @@ Full Stack Web Development Capstone Project
 2026
 
 ---
-#############
-     I have added an admin login system in the application.
-Only the owner/admin can access the admin page using the credentials.
-user name : ATELIER
 
-PASSWORD:ATELIER2005
-
-After entering the correct username and password, the user will be directly redirected to the admin dashboard page.
-
-Normal users will not be able to access the admin page without authentication.
-      
- In the admin panel, the owner can upload product images and add product information.                 These products will then be displayed on the user side of the application.
  
 # 📄 License
 
