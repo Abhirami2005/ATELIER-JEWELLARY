@@ -190,9 +190,10 @@ Full Stack Web Development Capstone Project
 
 ---
 #############
-I have added an admin login system in the application.
+     I have added an admin login system in the application.
 Only the owner/admin can access the admin page using the credentials.
 user name : ATELIER
+
 PASSWORD:ATELIER2005
 
 After entering the correct username and password, the user will be directly redirected to the admin dashboard page.
