@@ -3,6 +3,9 @@
 A premium full-stack luxury jewellery e-commerce platform designed to provide a modern online shopping experience with an elegant admin dashboard for managing products, inventory, and customer interactions.
 
 ---
+### LIVE DEMO ##
+
+"https://atelier-jewellary.onrender.com"
 
 # 🌟 Project Overview
 
