@@ -1,0 +1,6 @@
+{
+  "name": "Atelier",
+  "description": "Atelier is a premium luxury jewellery brand bringing together timeless Indian craftsmanship and modern luxury design, complete with a high-end showcase and real-time management portal.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

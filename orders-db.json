@@ -1,0 +1,38 @@
+[
+  {
+    "id": "ORD-8941",
+    "product_name": "The Eternal Solitaire Ring",
+    "price": 18500,
+    "quantity": 1,
+    "user_id": "aarav.m@gmail.com",
+    "status": "Shipped",
+    "date": "2026-06-23"
+  },
+  {
+    "id": "ORD-7624-1",
+    "product_name": "The Royal Peacock Jhumkas",
+    "price": 3600,
+    "quantity": 1,
+    "user_id": "meera.deshmukh@yahoo.com",
+    "status": "Delivered",
+    "date": "2026-06-18"
+  },
+  {
+    "id": "ORD-7624-2",
+    "product_name": "Trinity Gold Huggies",
+    "price": 1250,
+    "quantity": 1,
+    "user_id": "meera.deshmukh@yahoo.com",
+    "status": "Delivered",
+    "date": "2026-06-18"
+  },
+  {
+    "id": "ORD-4122",
+    "product_name": "Saptapadi Wedding Band Set",
+    "price": 2400,
+    "quantity": 1,
+    "user_id": "devika.sen@outlook.com",
+    "status": "Pending",
+    "date": "2026-06-25"
+  }
+]

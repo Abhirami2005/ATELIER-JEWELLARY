@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-display: 'Montserrat', sans-serif;
+}
+
+@layer base {
+  body {
+    background-color: #0a1617; /* Deep luxurious teal-black */
+    color: #F3F4F6;
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+/* Premium Gold Text Gradient - Antique Sophisticated Gold */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #FFFDF5 0%, #E2D3B2 30%, #c5a059 60%, #876C35 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Premium Gold Background Gradient */
+.bg-gold-gradient {
+  background: linear-gradient(135deg, #F3EBD8 0%, #c5a059 50%, #9E7D3F 100%);
+}
+
+.bg-gold-dark-gradient {
+  background: linear-gradient(135deg, #181F20 0%, #0D1415 100%);
+}
+
+/* Glow effects with our primary antique gold */
+.shadow-gold-glow {
+  box-shadow: 0 4px 20px -2px rgba(197, 160, 89, 0.15);
+}
+
+.shadow-gold-heavy {
+  box-shadow: 0 10px 30px -5px rgba(197, 160, 89, 0.25);
+}
+
+.shadow-inner-gold {
+  box-shadow: inset 0 0 10px rgba(197, 160, 89, 0.2);
+}
+
+/* Typography styles */
+.font-luxury-title {
+  font-family: var(--font-serif);
+  letter-spacing: -0.02em;
+}
+
+.font-luxury-display {
+  font-family: var(--font-display);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+/* Smooth custom scrollbars using Antique Gold and Deep Teal themes */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #070F10;
+}
+::-webkit-scrollbar-thumb {
+  background: #c5a059;
+  border-radius: 99px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #9E7D3F;
+}
+
+/* Interactive transitions */
+.transition-luxury {
+  transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
